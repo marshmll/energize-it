@@ -22,6 +22,8 @@ const HeaderWrapper = styled.header`
     font-family: 'Anton', sans-serif;
     color: #f0f0f0;
     text-shadow: 1px 1px 5px black;
+    -webkit-text-stroke-width: .02rem;
+    -webkit-text-stroke-color: #000;
   }
 
   .logo-wrapper span:hover {
@@ -86,12 +88,12 @@ export default function Header() {
         </a>
       </Link>
       <div className="nav-links">
-        <Link href="">
+        <Link href="/login">
           <a>
             Entrar
           </a>
         </Link>
-        <Link href="">
+        <Link href="/cadastro">
           <a>
             Cadastrar-se
           </a>
