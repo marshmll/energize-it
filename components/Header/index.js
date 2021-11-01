@@ -10,6 +10,7 @@ const HeaderWrapper = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 99999;
 
   .logo-wrapper {
     display: flex;
@@ -19,6 +20,8 @@ const HeaderWrapper = styled.header`
   .logo-wrapper span {
     font-size: 3rem;
     font-family: 'Anton', sans-serif;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 5px black;
   }
 
   .logo-wrapper span:hover {
@@ -49,17 +52,19 @@ const HeaderWrapper = styled.header`
   .nav-links a {
     margin-left: 1rem;
     font-size: 1.1rem;
+    color: #f0f0f0;
   }
 
   .nav-links a:hover {
     color: white;
     text-shadow: 1px 1px 1px #00000025;
     transition: all 200ms;
+    transform: scale(1.05);
   }
 
   @media screen and (max-width: 1024px) {
     flex-direction: column;
-    position: static;
+    position: absolute;
   }
 
   @media screen and (max-width: 768px) {
