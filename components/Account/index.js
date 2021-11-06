@@ -87,19 +87,19 @@ export default function Account({ user }) {
           <ul>
             <li title='Recargas'>
               <button>
-                <i class="bi bi-phone" />
+                <i className="bi bi-phone" />
                 <span className="nav-span">Recargas</span>
               </button>
             </li>
             <li title='Tempo restante'>
               <button>
-                <i class="bi bi-watch" />
+                <i className="bi bi-watch" />
                 <span className="nav-span">Tempo restante</span>
               </button>
             </li>
             <li title='Comprar recargas'>
               <button>
-                <i class="bi bi-cash-coin" />
+                <i className="bi bi-cash-coin" />
                 <span className="nav-span">Comprar recargas</span>
               </button>
             </li>
@@ -108,7 +108,7 @@ export default function Account({ user }) {
                 localStorage.removeItem('USER');
                 Router.push('/');
               }}>
-                <i class="bi bi-box-arrow-left" />
+                <i className="bi bi-box-arrow-left" />
                 <span className="nav-span">Sair</span>
               </button>
             </li>
