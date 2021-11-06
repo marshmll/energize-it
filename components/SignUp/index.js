@@ -73,12 +73,12 @@ export default function SignUp() {
         <input required type="text" id="adress" placeholder="Endereço" />
         <input onChange={(e) => {
           if (e.target.value.length == 1) e.target.value = `(${e.target.value}`;
-          if (e.target.value.length == 3) e.target.value = `${e.target.value}) `; 
+          if (e.target.value.length == 3) e.target.value = `${e.target.value}) `;
           if (e.target.value.length == 10) e.target.value = `${e.target.value}-`;
 
         }} required type="tel" id="number" placeholder="(xx) xxxxx-xxxx" />
         <input required type="email" id="email" placeholder="exemplo@exemplo.com" />
-        <button type="submit" className="submit">Enviar</button>
+        <button type="submit" className="submit">Cadastrar-se</button>
       </form>
     </SignUpWrapper>
   )

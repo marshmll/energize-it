@@ -98,7 +98,7 @@ export default function Header() {
             Cadastrar-se
           </a>
         </Link>
-        <Link href="">
+        <Link href="/conta">
           <a>
             Minha Conta
           </a>
