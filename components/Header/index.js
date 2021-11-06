@@ -103,7 +103,7 @@ export default function Header() {
             Minha Conta
           </a>
         </Link>
-        <Link href="">
+        <Link href="/">
           <a>
             Sobre Nós
           </a>
